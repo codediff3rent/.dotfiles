@@ -24,6 +24,11 @@ kitty +kitten themes
 # Install Git
 brew install git
 
+# Install apps
+brew install --cask visual-studio-code
+brew install --cask flycut
+brew install --cask keepingyouawake
+
 # Create dev directory
 mkdir dev
 cd dev
