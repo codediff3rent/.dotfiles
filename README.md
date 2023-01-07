@@ -49,6 +49,7 @@ ln -s ~/dev/.dotfiles/.config ~
 
 # Store repo remotely
 # Add ssh key for machine to remote host if desired (follow video for instructions)
+# Learn more here: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 git init
 git add .
 git commit -m "Initial commit"
@@ -56,13 +57,10 @@ git remote add origin insert_remote_host_url_here
 git branch -M main
 git push -u origin main
 
-# Installing Node.js --
+# Installing Node.js
 # NVM:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 nvm install --lts
 npm i -g typescript
 npm i -g ts-node
-
-# Install VSCode
-brew install --cask visual-studio-code
 ```
