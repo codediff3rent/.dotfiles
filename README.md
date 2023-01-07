@@ -2,11 +2,11 @@
 Configuration files for my YouTube dev machine
 
 ```shell
-# Kitty terminal
-curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
-
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Kitty terminal
+brew install --cask kitty
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
